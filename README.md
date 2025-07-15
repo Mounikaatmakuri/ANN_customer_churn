@@ -1,15 +1,15 @@
 ## 🧠 Artificial Neural Network for Customer Churn Prediction
-📌 Overview
+#📌 Overview
 This project implements an Artificial Neural Network (ANN) using TensorFlow/Keras to predict whether a customer will churn (leave a service) based on their historical data. Accurate churn prediction helps companies take preventive action and retain valuable customers.
 
-🗃️ Dataset
+#🗃️ Dataset
 File: Churn_Modelling.csv
 
 Features Used: Credit score, geography, gender, age, tenure, balance, number of products, has credit card, active member, estimated salary
 
 Target Variable: Exited (1 = churned, 0 = retained)
 
-🔧 Technologies Used
+#🔧 Technologies Used
 Python
 
 TensorFlow / Keras
@@ -18,7 +18,7 @@ NumPy, Pandas
 
 Scikit-learn (for preprocessing and metrics)
 
-🧪 Steps & Methodology
+#🧪 Steps & Methodology
 Data Preprocessing
 
 Selected relevant features (excluding RowNumber, CustomerId, Surname)
@@ -49,7 +49,7 @@ Evaluated model on test data
 
 Made prediction on a single new data point
 
-Evaluation
+#Evaluation
 
 Used confusion_matrix and accuracy_score for performance evaluation
 
@@ -60,12 +60,12 @@ Confusion Matrix:
 Accuracy Score:
 ~85% 
 
-🧠 Example Use
+#🧠 Example Use
 To predict churn for a customer with the following data:
 ann.predict(sc.transform([[1, 0, 0, 600, 1, 40, 3, 60000, 2, 1, 1, 50000]])) > 0.5
 Returns: False → This customer is not likely to churn.
 
-📂 Project Files
+#📂 Project Files
 css
 Copy
 Edit
