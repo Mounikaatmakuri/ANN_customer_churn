@@ -1,4 +1,4 @@
-🧠 Artificial Neural Network for Customer Churn Prediction
+## 🧠 Artificial Neural Network for Customer Churn Prediction
 📌 Overview
 This project implements an Artificial Neural Network (ANN) using TensorFlow/Keras to predict whether a customer will churn (leave a service) based on their historical data. Accurate churn prediction helps companies take preventive action and retain valuable customers.
 
